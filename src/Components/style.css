@@ -1,0 +1,33 @@
+/* News Card Styling */
+.news-card {
+  background-color: #495057 !important; 
+  color: #ffffff !important; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none; /* removes Bootstrap card border */
+}
+
+.news-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Ensure text is always white */
+.news-card .card-title,
+.news-card .card-text {
+  color: #ffffff !important; 
+}
+
+/* Button Styling */
+.news-card .btn {
+  color: #212529 !important;
+  background-color: #ffffff !important; 
+  border: none !important;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.news-card .btn:hover {
+  transform: scale(1.05);
+  background-color: #000000 !important; 
+  color: #ffffff !important;
+}
